@@ -5,7 +5,7 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import profilePic from "../../public/images/profile/profilepic.png";
+import profilePic from "../../public/images/profile/rb_82512.png";
 import TransitionEffect from "@/components/TransitionEffect";
 import { useState, useEffect } from "react";
 
@@ -51,10 +51,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Pritam's Portfolio</title>
+        <title>Retail Analytica</title>
         <meta
           name="description"
-          content="Explore academic journey of Dr. Pritam Panda in AI-driven protein design, drug discovery, and multiomics. Discover how Dr. Panda uses cutting-edge technology to unlock the secrets of life's blueprint and redefine how we explore and innovate in the life sciences."
+          content="Retail Analytica empowers consumer businesses to maximize customer value by automating decision-making across the entire retail lifecycle"
         />
       </Head>
 
@@ -67,7 +67,7 @@ export default function Home() {
             <div className="w-1/2 lg:hidden md:inline-block md:w-full">
               <Image
                 src={profilePic}
-                alt="Pritam"
+                alt="Retail Analytica"
                 className="h-auto w-full"
                 sizes="100vw"
                 priority
@@ -75,12 +75,12 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Atom Odyssey Redefining Life's Blueprint, One Atom at a Time"
+                text="Retail Analytica"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-                As a skilled bioinformatician, I bring expertise in AI-driven protein design, drug discovery, and multiomics to uncover the secrets of life's blueprint. I combine computational biology, data science, and cutting-edge web technologies to redefine how we explore and innovate in the life sciences. Where atoms move, life evolves – let the atom dance in harmony.
+              We empower you to make smarter, real-time decisions with every customer interaction. Transform your data into actionable insights to deliver personalized shopping experiences, optimize inventory management, and streamline retail operations.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
