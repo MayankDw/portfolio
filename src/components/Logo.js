@@ -25,9 +25,9 @@ const Logo = () => {
         }}
       >
         <img 
-          src="/images/profile/logo.png" // Adjust the path to your logo file
+          src="/images/profile/ra_logo1.png" // Adjust the path to your logo file
           alt="Logo" 
-          className="w-12 h-12 object-contain" 
+          className="w-48 h-48 object-contain" 
         />
       </MotionLink>
     </div>
