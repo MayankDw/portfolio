@@ -9,18 +9,18 @@ export default function handler(req, res) {
       type: "Retail Big Show",
     },
     {
-      title: "Meet my PI Prof. Dr. Edward Bertaccini",
-      img: "/images/news/news3.png",
-      time: "Jan 6, 2025",
-      link: "https://med.stanford.edu/profiles/edward-bertaccini",
-      type: "Research",
+      title: "ShopTalk 2025",
+      img: "/images/news/new2.jpg",
+      time: "Mar 25-27, 2025",
+      link: "https://shoptalk.com/us",
+      type: "This Spring - Journey towards new Ideas",
     },
     {
-      title: "The ABCs of AlphaFold 3, Boltz, and Chai-1",
-      img: "/images/news/news2.png",
-      time: "Dec 3, 2024",
-      link: "https://www.linkedin.com/feed/update/urn:li:activity:7268935224925794304/",
-      type: "AI Protein Design",
+      title: "Retail Innovation Conference & Expo (IRCE)",
+      img: "/images/news/new3.jpg",
+      time: "Jun-July 2025 - Date TBD",
+      link: "https://retailinnovationconference.com/",
+      type: "Innovations - New Perspective in Retail",
     },
   ];
 
