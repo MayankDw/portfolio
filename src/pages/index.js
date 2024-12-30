@@ -84,7 +84,7 @@ export default function Home() {
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
-                  href="/CV.pdf"
+                  href="/WhitePaper.pdf"
                   target={"_blank"}
                   className="flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
                   capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
@@ -92,7 +92,7 @@ export default function Home() {
                   md:p-2 md:px-4 md:text-base mr-4"
                   download
                 >
-                  WhitePaper <LinkArrow className="ml-1 !w-8 md:!w-6" />
+                  WhitePaper <LinkArrow className="ml-1 !w-6 md:!w-4" />
                 </Link>
 
                 <Link
