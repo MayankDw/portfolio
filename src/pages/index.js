@@ -92,7 +92,7 @@ export default function Home() {
                   md:p-2 md:px-4 md:text-base mr-4"
                   download
                 >
-                  Resume <LinkArrow className="ml-1 !w-6 md:!w-4" />
+                  WhitePaper <LinkArrow className="ml-1 !w-8 md:!w-6" />
                 </Link>
 
                 <Link
@@ -103,7 +103,7 @@ export default function Home() {
                   dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
                   md:p-2 md:px-4 md:text-base mr-4"
                 >
-                  Stanford <LinkArrow className="ml-2 !w-6 md:!w-4" />
+                  Solutions <LinkArrow className="ml-2 !w-6 md:!w-4" />
                 </Link>
 
                 <Link
@@ -114,7 +114,7 @@ export default function Home() {
                   dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
                   md:p-2 md:px-4 md:text-base"
                 >
-                  YouTube <LinkArrow className="ml-3 !w-6 md:!w-4" />
+                  Contact <LinkArrow className="ml-3 !w-6 md:!w-4" />
                 </Link>
               </div>
             </div>

@@ -2,11 +2,11 @@
 export default function handler(req, res) {
   const newsData = [
     {
-      title: "Excited to Join Stanford as a Postdoctoral Scholar!",
-      img: "/images/news/news1.png",
-      time: "Jan 6, 2025",
-      link: "https://profiles.stanford.edu/pritam-panda",
-      type: "Research",
+      title: "Excited to Join NRF 2025!",
+      img: "/images/news/new1.jpg",
+      time: "Jan 12-14, 2025",
+      link: "https://nrf.com/",
+      type: "Retail Big Show",
     },
     {
       title: "Meet my PI Prof. Dr. Edward Bertaccini",
