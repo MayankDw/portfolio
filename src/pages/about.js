@@ -43,7 +43,7 @@ export default function About() {
         <meta name="description" 
         content="Turn your retail data into valuable insights and help drives sales and company's growth" />
       </Head>
-      
+
       <TransitionEffect />
       <main
         className={`flex  w-full flex-col items-center justify-center dark:text-light`}
@@ -142,7 +142,7 @@ export default function About() {
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Publications
+                  Offerings
                 </h2>
               </div>
 
@@ -162,14 +162,13 @@ export default function About() {
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Years of experience
+                  Clients
                 </h2>
               </div>
             </div>
           </div>
 
           <Skills />
-          <Experience />
           <Purpose />
         </Layout>
       </main>

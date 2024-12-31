@@ -26,7 +26,7 @@ const Skills = () => {
   return (
 <>
       <h2 className="font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32">
-        Skills
+        Services Offered
       </h2> 
     <div
       ref={ref}
@@ -40,24 +40,23 @@ const Skills = () => {
         <motion.div whileHover={{scale:1.05}} className="cursor-pointer flex rounded-full font-semibold bg-dark text-light p-8 shadow-dark
         dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2
         ">
-        Bioinformatics
+        Retail Analytics
       </motion.div>
 
-        <Skill name="Git" x="-20vw" y="2vw" />
-        <Skill name="NGS" x="-25vw" y="10vw" />
-        <Skill name="Docker/Singularity" x="30vw" y="-17vw" />
-
-          <Skill name="Python" x="-5vw" y="-10vw" />
-          <Skill name="R/Shiny" x="20vw" y="6vw" />
-          <Skill name="Nextflow" x="0vw" y="12vw" />
-          <Skill name="Molecular Dynamics" x="0vw" y="24vw" />
-          <Skill name="ML/AI" x="-20vw" y="-15vw" />
-          <Skill name="Snakemake" x="15vw" y="-12vw" />
-          <Skill name="Multiomics" x="-35vw" y="-5vw" />
-          <Skill name="Web Design" x="32vw" y="-5vw" />
-          <Skill name="Workflow Management" x="0vw" y="-22vw" />
-          <Skill name="Drug Designing" x="-25vw" y="18vw" />
-          <Skill name="Molecular Modeling" x="28vw" y="18vw" />
+        <Skill name="Trade Management" x="-20vw" y="2vw" />
+        <Skill name="Planning and Sourcing" x="-25vw" y="10vw" />
+        <Skill name="Supply Chain" x="30vw" y="-17vw" />
+        <Skill name="Inventory Management" x="-5vw" y="-10vw" />
+        <Skill name="Store Inventory and Sales" x="20vw" y="6vw" />
+        <Skill name="Pricing" x="0vw" y="12vw" />
+        <Skill name="Finance and Accounting" x="0vw" y="24vw" />
+        <Skill name="IT Consulting" x="-20vw" y="-15vw" />
+        <Skill name="Retail Foundations Data" x="15vw" y="-12vw" />
+        <Skill name="Ecommerce" x="-35vw" y="-5vw" />
+        <Skill name="IT Services & Support" x="32vw" y="-5vw" />
+        <Skill name="Merchandising" x="0vw" y="-22vw" />
+        <Skill name="Warehouse Management" x="-25vw" y="18vw" />
+        <Skill name="Invoicing" x="28vw" y="18vw" />
     </div></>
   );
 };
