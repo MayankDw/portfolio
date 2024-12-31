@@ -1,12 +1,13 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profile from "../../public/images/profile/Pritam.jpg";
+import profile from "../../public/images/profile/aboutuspic.jpg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
+import Purpose from "@/components/Purpose"
 import AnimatedText from "@/components/AnimatedText";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -38,44 +39,81 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Pritam's Portfolio | About Page</title>
-        <meta name="description" content="Explore academic bioinformatics journey of Dr. Pritam Kumar Panda." />
+        <title>Retail Analytics| About Page</title>
+        <meta name="description" 
+        content="Turn your retail data into valuable insights and help drives sales and company's growth" />
       </Head>
+      
       <TransitionEffect />
       <main
         className={`flex  w-full flex-col items-center justify-center dark:text-light`}
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Passion Fuels Purpose!"
+            text="Data Drive Sales!"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 
             md:col-span-8">
-              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                BIOGRAPHY
-              </h2>
-              <p className="font-medium ">
-                Hi, I&apos;m <strong>Pritam</strong>,  an accomplished bioinformatician and researcher 
-                specializing in drug design, molecular modeling, and AI-driven protein design, NGS, 
-                multimomics and workflow management. 
-                Originally from India and currently based in San Francisco, California, he holds a 
-                Ph.D. in Physics, specializing in Atomic, Molecular, and Condensed Matter Physics 
-                from Uppsala University in Sweden, where his research bridged quantum and 
-                biological phenomena. 
-                
+              <p className="mb-4 font-medium ">
+                At <strong>Retail Analytica</strong>, we transform data into actionable insights, empowering retailers to stay ahead in an ever-evolving market. Specializing in advanced analytics and innovative solutions, we help businesses optimize operations, enhance customer experiences, and drive sustainable growth.
               </p>
-              <p className="my-4 font-medium">
-              Currently, I work as a Postdoctoral Scholar in the Department of Anesthesiology, 
-              Perioperative, and Pain Medicine at <strong>Stanford University School of Medicine</strong>. My current research is centered on designing novel anesthetics suitable for battlefield conditions. Leveraging AI-driven protein design and high-throughput virtual screening, 
-              I bring my expertise to accelerate the drug discovery process and develop effective anesthetic agents.
+
+              <h1 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+                Our Mission
+              </h1>
+
+              <p className="mb-4 font-medium">
+              Our mission is to revolutionize the retail industry by providing cutting-edge analytics tools and expert guidance. We aim to help retailers unlock the full potential of their data, enabling them to make informed decisions and thrive in a competitive environment.
+              </p>
+
+              <h1 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+                What We Do
+              </h1>
+
+              <p className="mb-4 font-medium">
+              Retail Analytica offers a comprehensive suite of analytics solutions tailored to the unique challenges of the retail sector. From customer behavior analysis to inventory optimization, we deliver insights that drive profitability and efficiency. Our services include:
               </p>
               <p className="font-medium">
-              Whether I'm working with genomic datasets, protein structures, or other bioinformatics challenges, 
-              I bring my commitment to analytical precision and data-driven problem-solving to every project I undertake.
+              <strong>Customer Insights and Personalization</strong> 
               </p>
+              <p className="font-medium">
+              <strong>Operational Excellence</strong> 
+              </p>
+              <p className="font-medium">
+              <strong>Marketing Intelligence</strong> 
+              </p>
+              <p className="mb-6 font-medium">
+              <strong>Omnichannel Analytics</strong> 
+              </p>
+
+              <h1 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+                Why Choose Us
+              </h1>
+
+              <p className="mb-4 font-medium">
+              <strong>Data-Driven Approach:</strong> Leverage the power of AI and machine learning to uncover deep insights.
+              </p>
+              <p className="mb-4 font-medium">
+              <strong>Retail Expertise:</strong> Benefit from our industry-focused knowledge and experience.
+              </p>
+              <p className="mb-4 font-medium">
+              <strong>Scalable Solutions:</strong> From small businesses to global enterprises, our tools are designed to grow with you.
+              </p>
+              <p className="mb-4 font-medium">
+              <strong>Commitment to Success:</strong> Partner with a team that prioritizes your business goals and ensures measurable outcomes.
+              </p>
+
+              <h1 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+                Our Vision
+              </h1>
+
+              <p className="font-medium">
+              We envision a future where every retailer harnesses the power of data to deliver exceptional value to their customers and stakeholders. At Retail Analytica, we are committed to shaping that future through innovation, collaboration, and a relentless focus on results.
+              </p>
+
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
             bg-light p-8 dark:border-light dark:bg-dark
@@ -132,7 +170,7 @@ export default function About() {
 
           <Skills />
           <Experience />
-          <Education />
+          <Purpose />
         </Layout>
       </main>
     </>
