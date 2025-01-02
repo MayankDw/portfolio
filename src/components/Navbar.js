@@ -3,11 +3,11 @@ import React, { useState } from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
 import {
-  GoogleScholarIcon,
+  FacebookIcon,
   GithubIcon,
   LinkedInIcon,
   MoonIcon,
-  BlueskyIcon,
+  InstaIcon,
   SunIcon,
   TwitterIcon,
 } from "./Icons";
@@ -138,7 +138,7 @@ const Navbar = () => {
           whileTap={{ scale: 0.9 }}
           aria-label="Checkout my bluesky profile"
         >
-          <BlueskyIcon />
+          <InstaIcon/>
         </motion.a>
         <motion.a
           target={"_blank"}
@@ -148,7 +148,7 @@ const Navbar = () => {
           whileTap={{ scale: 0.9 }}
           aria-label="Checkout my google scholar profile"
         >
-          <GoogleScholarIcon />
+          <FacebookIcon />
         </motion.a>
 
         <button
