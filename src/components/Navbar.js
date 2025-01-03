@@ -180,8 +180,7 @@ const Navbar = () => {
         <CustomMobileLink toggle={handleClick} className="mr-4 lg:m-0 lg:my-2" href="/" title="Home" />
         <CustomMobileLink toggle={handleClick} className="mx-4 lg:m-0 lg:my-2" href="/about" title="About" />
         <CustomMobileLink toggle={handleClick} className="mx-4 lg:m-0 lg:my-2" href="/solutions" title="Solutions" />
-        <CustomMobileLink toggle={handleClick} className="ml-4 lg:m-0 lg:my-2" href="/articles" title="Publications" />
-        <CustomMobileLink toggle={handleClick} className="ml-4 lg:m-0 lg:my-2" href="/youtube" title="YouTube" />
+        <CustomMobileLink toggle={handleClick} className="ml-4 lg:m-0 lg:my-2" href="/articles" title="Resorces" />
         <CustomMobileLink toggle={handleClick} className="ml-4 lg:m-0 lg:my-2" href="/blogs" title="Blogs" />
       </nav>
       <nav
@@ -191,7 +190,7 @@ const Navbar = () => {
         <motion.a
           target={"_blank"}
           className="w-6 m-1 mr-3 sm:mx-1"
-          href="https://twitter.com/pritamkpanda"
+          href="https://www.linkedin.com/in/retail-analytica-563354344/"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
           aria-label="Checkout my twitter profile"
@@ -201,7 +200,7 @@ const Navbar = () => {
         <motion.a
           target={"_blank"}
           className="w-6 m-1 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
-          href="https://github.com/pritampanda15"
+          href="https://www.linkedin.com/in/retail-analytica-563354344/"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
           aria-label="Checkout my github profile"
@@ -211,7 +210,7 @@ const Navbar = () => {
         <motion.a
           target={"_blank"}
           className="w-6 m-1 mx-3 sm:mx-1"
-          href="https://www.linkedin.com/in/pritam-kumar-panda/"
+          href="https://www.linkedin.com/in/retail-analytica-563354344/"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
           aria-label="Checkout my linkedin profile"
@@ -222,23 +221,23 @@ const Navbar = () => {
         <motion.a
           target={"_blank"}
           className="w-6 m-1 mx-3 bg-light rounded-full sm:mx-1"
-          href="https://bsky.app/profile/pritampkp15.bsky.social"
+          href="https://www.linkedin.com/in/retail-analytica-563354344/"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          aria-label="Checkout my bluesky profile"
+          aria-label="Checkout my Facebook profile"
         >
-          <BlueskyIcon />
+          <FacebookIcon />
 
         </motion.a>
         <motion.a
           target={"_blank"}
           className="w-6 m-1 mx-3 sm:mx-1"
-          href="https://scholar.google.com/citations?user=H2ggrzQAAAAJ&hl=en"
+          href="https://www.linkedin.com/in/retail-analytica-563354344/"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          aria-label="Checkout my dribbble profile"
+          aria-label="Checkout my Insta profile"
         >
-          <GoogleScholarIcon />
+          <InstaIcon />
         </motion.a>
 
         <button
