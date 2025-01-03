@@ -182,12 +182,12 @@ export default function Projects() {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                type="Featured Project"
-                title="Grid-Box-Generator"
-                summary="Generate a grid box for AutoDock Vina using Python web-app created using Flask without the need for MGLTools. This app helps you to generate or define grid box for Autodock Vina and Autodock4 for both blind and targeted docking."
+                type="Featured Solution"
+                title="Customer Analytics"
+                summary="Analyze retail data effortlessly with our machine learning models. This tool enables you to gain insights into sales, customer behavior, and inventory trends without the need for complex software, supporting both broad and targeted analytics strategies"
                 img={proj1}
-                link="https://grid-box-generator-bcb8da462cd0.herokuapp.com"
-                github="https://github.com/pritampanda15/Grid-Box-Generator"
+                link="https://github.com/RetailAnalytica/CustomerAnalytics"
+                github="https://github.com/RetailAnalytica/CustomerAnalytics"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
