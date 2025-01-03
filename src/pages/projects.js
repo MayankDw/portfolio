@@ -6,11 +6,11 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import proj1 from "../../public/images/projects/customer_analytics.jpg";
-import proj2 from "../../public/images/projects/Structufy.png";
-import proj3 from "../../public/images/projects/step.png";
-import proj4 from "../../public/images/projects/gromacs.png";
-import proj5 from "../../public/images/projects/siesta.png";
-import proj6 from "../../public/images/projects/ngs.jpg";
+import proj2 from "../../public/images/projects/sales_market.jpg";
+import proj3 from "../../public/images/projects/operational.jpg";
+import proj4 from "../../public/images/projects/ecommerce.jpg";
+import proj5 from "../../public/images/projects/itservices.jpg";
+import proj6 from "../../public/images/projects/consult.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -177,7 +177,7 @@ export default function Projects() {
         <Layout className="pt-16">
           <AnimatedText
             text="Insights with Impact, Growth with Precision"
-            className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
+            className="mb-16 !text-6xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
@@ -192,48 +192,48 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Drug Designing tool"
-                title="Structify-Chemical-Structure-Converter"
+                type="Sales and Marketing Analysis"
+                title="Driving Success: Sales and Marketing Analytics Unveiled"
                 img={proj2}
-                link="https://structify-chemical-converter-f735c2cc4ea3.herokuapp.com"
-                github="https://github.com/pritampanda15/Structify-Chemical-Structure-Converter"
+                link="https://github.com/RetailAnalytica/SalesMarketingAnalytics"
+                github="https://github.com/RetailAnalytica/SalesMarketingAnalytics"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Molecular Dynamics Tool"
-                title="GROMACS-StepWizard"
+                type="Operational Analytics"
+                title="Optimizing Efficiency: Insights Through Operational Analytics"
                 img={proj3}
-                link="https://gromacs-stepwizard-7e3791398062.herokuapp.com"
-                github="https://github.com/pritampanda15/GROMACS-StepWizard"
+                link="https://github.com/RetailAnalytica/OperationAnalytics"
+                github="https://github.com/RetailAnalytica/OperationAnalytics"
               />
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                type="Molecular Dynamics"
-                title="Gromacs-Command-Finder"
-                summary="Gromacs Command Finder is a tool to search for gromacs specific comands like topology, trajectory analysis, PME, etc."
+                type="Ecommerce and omnichannel"
+                title="Seamless Strategies: Ecommerce and Omnichannel Analytics"
+                summary="Leverage advanced analytics and data-driven insights across online and offline channels to deliver a unified customer experience"
                 img={proj4}
-                link=" https://gromacs-command-finder-a9630d013893.herokuapp.com/"
-                github="https://github.com/pritampanda15/Gromacs-Command-Finder"
+                link="https://github.com/RetailAnalytica/EcommerceAndOmnichannel"
+                github="https://github.com/RetailAnalytica/EcommerceAndOmnichannel"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Quantum Physics"
+                type="IT Services"
                 img={proj5}
-                title="Siesta"
-                link="https://github.com/pritampanda15/Siesta/blob/master/relax.fdf"
-                github="https://github.com/pritampanda15/Siesta"
+                title="Empowering Innovation: Comprehensive IT Services Solutions"
+                link="https://github.com/RetailAnalytica/ITServices/blob/main/README.md"
+                github="https://github.com/RetailAnalytica/ITServices"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="NGS"
+                type="Consulting Services"
                 img={proj6}
-                title="WES Pipeline"
-                link="https://github.com/pritampanda15/NGS-Workflows/tree/main/WholeExomeSequencing-Pipeline-main"
-                github="https://github.com/pritampanda15/NGS-Workflows/tree/main"
+                title="Strategic Guidance: Transformative Consulting Services"
+                link="https://github.com/RetailAnalytica/ConsultingServices/blob/main/README.md"
+                github="https://github.com/RetailAnalytica/ConsultingServices"
               />
             </div>
           </div>
