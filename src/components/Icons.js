@@ -448,9 +448,9 @@ export const CircularText = ({ className, ...rest }) => (
         d="M150,150m-100,0a100,100,0,1,1,200,0a100,100,0,1,1,-200,0" // Adjusted radius
       />
     </defs>
-    <text fontFamily="montserrat" fontSize="27.5" fontWeight="semibold"  className="circular-text"> // Reduced font size
+    <text fontFamily="montserrat" fontSize="27" fontWeight="semibold"  className="circular-text"> // Reduced font size
       <textPath href="#circlePath" textAnchor="middle">
-        Bioinformatician . Scientist . Web Developer . Bioinformatician . Scientist . Web Developer .
+        Retail Analytics . Data Science . Business Intel . Retail Analytics . Data Science . Business Intel .
       </textPath>
     </text>
   </svg>

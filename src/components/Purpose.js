@@ -49,12 +49,13 @@ const Purpose = () => {
           
           />
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-          <Details
-              work="Data isn’t just numbers – it’s the roadmap to retail success! We provide a New Perspective on Retail Data Analytics"
-            />
 
             <Details
               work="At Retail Analytica, We empower you to make smarter, real-time decisions with every customer interaction. Transform your data into actionable insights to deliver personalized shopping experiences, optimize inventory management, and streamline retail operations."
+            />
+
+            <Details
+              work="Data isn’t just numbers – it’s the roadmap to retail success! We provide a New Perspective on Retail Data Analytics"
             />
 
             <Details

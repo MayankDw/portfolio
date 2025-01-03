@@ -73,7 +73,7 @@ export default function About() {
                 What We Do
               </h1>
 
-              <p className="mb-4 font-medium">
+              <p className="mb-4 font-medium ">
               Retail Analytica offers a comprehensive suite of analytics solutions tailored to the unique challenges of the retail sector. From customer behavior analysis to inventory optimization, we deliver insights that drive profitability and efficiency. Our services include:
               </p>
               <p className="font-medium">
