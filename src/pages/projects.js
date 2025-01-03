@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import proj1 from "../../public/images/projects/gridbox.png";
+import proj1 from "../../public/images/projects/customer_analytics.jpg";
 import proj2 from "../../public/images/projects/Structufy.png";
 import proj3 from "../../public/images/projects/step.png";
 import proj4 from "../../public/images/projects/gromacs.png";
@@ -163,10 +163,10 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Pritam's Portfolio | Projects Page</title>
+        <title> Retail Analytica | Solutions Page</title>
         <meta
           name="description"
-          content="Discover the latest bioinformatics projects created by Pritam"
+          content="Retail Analytics: Unlock Data Insights to Drive Targeted Growth."
         />
       </Head>
 
@@ -176,7 +176,7 @@ export default function Projects() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Projects with Purpose, Progress with Passion!"
+            text="Insights with Impact, Growth with Precision"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">

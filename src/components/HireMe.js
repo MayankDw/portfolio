@@ -17,7 +17,7 @@ bg-dark rounded-full text-white w-20 h-20 font-semibold hover:bg-light hover:bor
 dark:hover:text-light dark:hover:border-light dark:shadow-light/25 md:w-12 md:h-12 md:text-[10px]
 "
         >
-          Contact
+          Connect
         </Link>
       </div>
     </div>
